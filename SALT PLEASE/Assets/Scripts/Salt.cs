@@ -1,16 +1,12 @@
 using UnityEngine;
 
-public class Salt : MonoBehaviour
+[CreateAssetMenu(fileName = "New Salt", menuName = "Salt")]
+public class Salt : ScriptableObject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public string saltName;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public Sprite saltSprite;
+    public bool disolves;
+
+    public bool isWrong;
 }
