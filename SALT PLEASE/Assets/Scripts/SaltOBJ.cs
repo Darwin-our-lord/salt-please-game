@@ -1,13 +1,22 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
-using static UnityEngine.GraphicsBuffer;
-
-public class SaltOBJ : MonoBehaviour
+using UnityEngine.UI;
+public class SaltOBJ : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    private void OnMouseDrag()
+
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        transform.position = new Vector3(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, 
-            Camera.main.ScreenToWorldPoint(Input.mousePosition).y,0);
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        transform.position = new Vector3(Camera.main.ScreenToWorldPoint(eventData.position).x, 
+            Camera.main.ScreenToWorldPoint(eventData.position).y,0);
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
 
     }
 }
