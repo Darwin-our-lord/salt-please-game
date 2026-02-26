@@ -1255,7 +1255,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1122262818
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1809,6 +1809,7 @@ MonoBehaviour:
   - {fileID: 7042004486704539034, guid: 6b89e7bcba36f514a8161e38c6763f02, type: 3}
   - {fileID: 1451783229, guid: 6b89e7bcba36f514a8161e38c6763f02, type: 3}
   guySprite: {fileID: 1032678295}
+  saltSpawner: {fileID: 1641710879}
   currentSalt: {fileID: 0}
 --- !u!4 &2026840269
 Transform:

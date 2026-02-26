@@ -24,7 +24,6 @@ public class MagnifyingGlass : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     {
         holding.SetActive(true);
         laying.SetActive(false);
-        Debug.Log("stuff");
     }
 
     public void OnDrag(PointerEventData eventData)
