@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -89,7 +89,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -131,10 +131,10 @@ TextureImporter:
       name: Blokes who have salt_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 0
-        width: 142
-        height: 173
+        width: 140
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: Blokes who have salt_1
       rect:
         serializedVersion: 2
-        x: 144
+        x: 145
         y: 0
-        width: 145
-        height: 183
+        width: 143
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: Blokes who have salt_2
       rect:
         serializedVersion: 2
-        x: 288
+        x: 289
         y: 0
-        width: 145
-        height: 176
+        width: 143
+        height: 175
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Blokes who have salt_3
       rect:
         serializedVersion: 2
-        x: 432
+        x: 433
         y: 0
-        width: 145
-        height: 198
+        width: 143
+        height: 197
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +221,8 @@ TextureImporter:
         serializedVersion: 2
         x: 578
         y: 0
-        width: 143
-        height: 169
+        width: 141
+        height: 168
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,8 +243,8 @@ TextureImporter:
         serializedVersion: 2
         x: 720
         y: 0
-        width: 272
-        height: 177
+        width: 143
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,11 +259,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Blokes who have salt_6
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 128
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ea2dbe96598b64eb60c2fe8652d622
+      internalID: 1451783229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3108a98d61fc9464da7f833734896e15
     internalID: 0
     vertices: []
     indices: 
@@ -272,7 +294,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blokes who have salt_0: -663452582713865522
+      Blokes who have salt_1: 1384122132965402072
+      Blokes who have salt_2: -5298778688377513509
+      Blokes who have salt_3: 5543664165593033769
+      Blokes who have salt_4: -6669220889404146653
+      Blokes who have salt_5: 7042004486704539034
+      Blokes who have salt_6: 1451783229
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
