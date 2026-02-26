@@ -6,6 +6,7 @@ public class SaltSpawner : MonoBehaviour
 
     public void OnMouseDown()
     {
-        Instantiate(saltOBJ);
+        GameObject slat =Instantiate(saltOBJ,transform.position,Quaternion.identity);
+        slat.GetComponent<SaltOBJ>().isDragging = true;
     }
 }

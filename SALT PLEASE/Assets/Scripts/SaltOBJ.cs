@@ -7,7 +7,7 @@ public class SaltOBJ : MonoBehaviour
 
 
 
-    bool isDragging = false;
+    public bool isDragging = false;
 
     void Update()
     {
