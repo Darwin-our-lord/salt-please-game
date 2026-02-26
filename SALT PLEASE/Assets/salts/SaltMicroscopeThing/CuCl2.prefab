@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1160155776178319347}
   - component: {fileID: 3723610626298188586}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5005470548196517365}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CuCl2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8195446397342245722}
   - component: {fileID: 5245934146861331327}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6814360380907628207}
   - component: {fileID: 835244228451956040}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2704703317724102830}
   - component: {fileID: 7707416449160098499}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: THING
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 336267021087548735}
   - component: {fileID: 1806636404256839399}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: THING (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,8 +183,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5005470548196517365}
-  m_Layer: 0
-  m_Name: _Template 1
+  m_Layer: 3
+  m_Name: CuCl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

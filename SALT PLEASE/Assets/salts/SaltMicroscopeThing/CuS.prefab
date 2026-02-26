@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 714445003179847973}
   - component: {fileID: 8014521761488182626}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5005470548196517365}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CuS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7723523763240337002}
   - component: {fileID: 1745309857931458684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

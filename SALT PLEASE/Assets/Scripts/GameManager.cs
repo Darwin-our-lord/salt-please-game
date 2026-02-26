@@ -10,8 +10,6 @@ public class GameManager : MonoBehaviour
 
     public SpriteRenderer guySprite;
 
-    public GameObject saltOBJ;
-
     public Salt currentSalt;
     void Start()
     {

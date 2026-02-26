@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2469753816459564256}
   - component: {fileID: 1305431064929082873}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1467577603870779088}
   - component: {fileID: 9172438859312799712}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,7 +184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7955162379419715051}
   - component: {fileID: 7896440674830658596}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5005470548196517365}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mg(OH)2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3881830156664313011}
   - component: {fileID: 7915675483109523144}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3415213861256956275}
   - component: {fileID: 586942191509536893}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

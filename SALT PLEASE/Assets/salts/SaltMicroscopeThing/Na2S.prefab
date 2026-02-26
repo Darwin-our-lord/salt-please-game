@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5005470548196517365}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Na2S
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5475532025013764961}
   - component: {fileID: 5704054136070254379}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1256036606454173795}
   - component: {fileID: 1978946296638420134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -218,7 +218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9168572095897848097}
   - component: {fileID: 7691213618366562496}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
