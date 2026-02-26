@@ -9,6 +9,5 @@ public class SaltSpawner : MonoBehaviour
         GameObject slat =Instantiate(saltOBJ,transform.position,Quaternion.identity,transform);
         slat.GetComponent<SaltOBJ>().isDragging = true;
         slat.GetComponent<SaltOBJ>().salt = gameManager.currentSalt;
-        Debug.Log(slat.GetComponent<SaltOBJ>().salt);
     }
 }
