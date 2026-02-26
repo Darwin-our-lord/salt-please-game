@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     public SpriteRenderer guySprite;
 
-    public GameObject saltOBJ;
+    public GameObject saltSpawner;
 
     public Salt currentSalt;
     void Start()
@@ -24,10 +24,10 @@ public class GameManager : MonoBehaviour
 
         guySprite.sprite = guys[Random.Range(0, guys.Count)];
 
-
-
-
-
+        for (int i = 0; i < saltSpawner.transform.childCount; i++)
+        {
+            Destroy(saltSpawner.transform.GetChild(i).gameObject);
+        }
     }
 
     public void ConfirmRightOrWrong(bool isWrong)

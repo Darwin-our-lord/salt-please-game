@@ -5,9 +5,14 @@ using UnityEngine.UI;
 public class SaltOBJ : MonoBehaviour
 {
 
-
+    public Salt salt;
 
     public bool isDragging = false;
+
+    public void Start()
+    {
+        GameObject kid = Instantiate(salt.saltMicroThing,transform.position,Quaternion.identity, transform);
+    }
 
     void Update()
     {

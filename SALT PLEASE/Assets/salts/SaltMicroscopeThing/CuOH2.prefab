@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5005470548196517365}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CuOH2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2219181612986475424}
   - component: {fileID: 5107439523640057694}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2192176586814709950}
   - component: {fileID: 8646482414062180575}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1173687067362397506}
   - component: {fileID: 6187478187156969233}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6146674706285910581}
   - component: {fileID: 186753607573202380}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7723523763240337002}
   - component: {fileID: 1745309857931458684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Atomer_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
