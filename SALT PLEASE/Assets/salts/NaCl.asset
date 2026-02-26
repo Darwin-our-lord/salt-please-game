@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef0615d6882183a4e97e7e68a04f7b1f, type: 3}
-  m_Name: TESTSALT
+  m_Name: NaCl
   m_EditorClassIdentifier: 
-  saltName: HENRIK
+  saltName: NaCl
   saltMicroThing: {fileID: 1941736634590479288, guid: 63b7aa5bd06eee34ca5ba1935feeb30d, type: 3}
   disolves: 1
   isWrong: 1
