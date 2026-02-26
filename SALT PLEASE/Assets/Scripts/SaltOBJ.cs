@@ -2,21 +2,37 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-public class SaltOBJ : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class SaltOBJ : MonoBehaviour
 {
 
-    public void OnBeginDrag(PointerEventData eventData)
+
+
+    bool isDragging = false;
+
+    void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero);
+
+            if (hit.collider != null && hit.collider.gameObject == gameObject)
+            {
+                isDragging = true;
+            }
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            isDragging = false;
+        }
+
+        if (isDragging)
+        {
+            Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            pos.z = transform.position.z;
+            transform.position = pos;
+        }
     }
 
-    public void OnDrag(PointerEventData eventData)
-    {
-        transform.position = new Vector3(Camera.main.ScreenToWorldPoint(eventData.position).x, 
-            Camera.main.ScreenToWorldPoint(eventData.position).y,0);
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-
-    }
 }

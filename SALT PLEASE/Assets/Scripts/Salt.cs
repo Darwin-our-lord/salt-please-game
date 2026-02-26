@@ -5,7 +5,8 @@ public class Salt : ScriptableObject
 {
     public string saltName;
 
-    public Sprite saltSprite;
+    public GameObject saltMicroThing;
+
     public bool disolves;
 
     public bool isWrong;
