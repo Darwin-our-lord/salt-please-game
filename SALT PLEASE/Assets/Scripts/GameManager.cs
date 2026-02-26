@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     public GameObject saltSpawner;
 
     public Salt currentSalt;
+
+    private GameObject saltMicroThing;
     void Start()
     {
         NewGuy();
@@ -23,6 +25,9 @@ public class GameManager : MonoBehaviour
         currentSalt = salts[Random.Range(0,salts.Count)];
 
         guySprite.sprite = guys[Random.Range(0, guys.Count)];
+
+        if (saltMicroThing != null) Destroy(saltMicroThing);
+        saltMicroThing=Instantiate(currentSalt.saltMicroThing, saltSpawner.transform.parent.transform.position,Quaternion.identity, saltSpawner.transform.parent);
 
         for (int i = 0; i < saltSpawner.transform.childCount; i++)
         {
