@@ -12,7 +12,7 @@ public class SaltOBJ : MonoBehaviour
 
     public void Start()
     {
-        GameObject kid = Instantiate(salt.saltMicroThing,transform.position,Quaternion.identity, transform);
+        // GameObject kid = Instantiate(salt.saltMicroThing,transform.position,Quaternion.identity, transform);
         
     }
 
@@ -38,6 +38,13 @@ public class SaltOBJ : MonoBehaviour
             Hand.handSaltOBJ.SetActive(false);
 
             Hand.handOBJ.SetActive(true);
+
+            Dissovler dissovler = FindFirstObjectByType<Dissovler>();
+            if (dissovler != null)
+            {
+                dissovler.SpawnParticles(transform);
+            }
+            Destroy(gameObject);
         }
         else if (isDragging)
         {

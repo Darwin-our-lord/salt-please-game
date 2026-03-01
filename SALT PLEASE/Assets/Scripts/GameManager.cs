@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public List<Salt> salts = new List<Salt>();
     public List<Sprite> guys = new List<Sprite>();
+    public Dissovler dissovler;
 
     public SpriteRenderer guySprite;
 
@@ -33,6 +34,9 @@ public class GameManager : MonoBehaviour
         {
             Destroy(saltSpawner.transform.GetChild(i).gameObject);
         }
+
+        dissovler.KillParticles();
+        dissovler.salt = currentSalt;
     }
 
     public void ConfirmRightOrWrong(bool isWrong)

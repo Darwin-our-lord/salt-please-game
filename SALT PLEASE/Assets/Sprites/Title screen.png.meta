@@ -118,7 +118,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -132,7 +132,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -197,10 +197,10 @@ TextureImporter:
       name: Title screen_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 65
-        width: 31
-        height: 44
+        x: 3
+        y: 66
+        width: 29
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: Title screen_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 65
-        width: 31
-        height: 44
+        x: 35
+        y: 66
+        width: 29
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: Title screen_2
       rect:
         serializedVersion: 2
-        x: 45
-        y: 12
-        width: 67
-        height: 53
+        x: 67
+        y: 64
+        width: 49
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: Title screen_3
       rect:
         serializedVersion: 2
-        x: 66
-        y: 63
-        width: 51
-        height: 46
+        x: 14
+        y: 13
+        width: 29
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,10 +285,10 @@ TextureImporter:
       name: Title screen_4
       rect:
         serializedVersion: 2
-        x: 13
-        y: 12
-        width: 31
-        height: 43
+        x: 46
+        y: 13
+        width: 65
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: Title screen_5
       rect:
         serializedVersion: 2
-        x: 23
-        y: 3
-        width: 6
-        height: 9
+        x: 113
+        y: 13
+        width: 29
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,10 +329,10 @@ TextureImporter:
       name: Title screen_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 3
-        width: 6
-        height: 9
+        x: 145
+        y: 13
+        width: 29
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +351,10 @@ TextureImporter:
       name: Title screen_7
       rect:
         serializedVersion: 2
-        x: 37
-        y: 3
-        width: 6
-        height: 9
+        x: 24
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +373,10 @@ TextureImporter:
       name: Title screen_8
       rect:
         serializedVersion: 2
-        x: 42
-        y: 3
-        width: 6
-        height: 9
+        x: 33
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,10 +395,10 @@ TextureImporter:
       name: Title screen_9
       rect:
         serializedVersion: 2
-        x: 46
-        y: 3
-        width: 7
-        height: 9
+        x: 38
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,10 +417,10 @@ TextureImporter:
       name: Title screen_10
       rect:
         serializedVersion: 2
-        x: 56
-        y: 3
-        width: 8
-        height: 9
+        x: 43
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,10 +439,10 @@ TextureImporter:
       name: Title screen_11
       rect:
         serializedVersion: 2
-        x: 63
-        y: 3
-        width: 9
-        height: 9
+        x: 47
+        y: 4
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -461,10 +461,10 @@ TextureImporter:
       name: Title screen_12
       rect:
         serializedVersion: 2
-        x: 71
-        y: 3
+        x: 57
+        y: 4
         width: 6
-        height: 9
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,10 +483,10 @@ TextureImporter:
       name: Title screen_13
       rect:
         serializedVersion: 2
-        x: 76
-        y: 3
-        width: 6
-        height: 9
+        x: 64
+        y: 4
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,10 +505,10 @@ TextureImporter:
       name: Title screen_14
       rect:
         serializedVersion: 2
-        x: 81
-        y: 3
-        width: 6
-        height: 9
+        x: 72
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -527,10 +527,10 @@ TextureImporter:
       name: Title screen_15
       rect:
         serializedVersion: 2
-        x: 86
-        y: 3
-        width: 9
-        height: 9
+        x: 77
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,10 +549,10 @@ TextureImporter:
       name: Title screen_16
       rect:
         serializedVersion: 2
-        x: 94
-        y: 3
-        width: 6
-        height: 9
+        x: 82
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,10 +571,10 @@ TextureImporter:
       name: Title screen_17
       rect:
         serializedVersion: 2
-        x: 99
-        y: 3
+        x: 87
+        y: 4
         width: 7
-        height: 9
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,10 +593,10 @@ TextureImporter:
       name: Title screen_18
       rect:
         serializedVersion: 2
-        x: 109
-        y: 3
-        width: 8
-        height: 9
+        x: 95
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,10 +615,10 @@ TextureImporter:
       name: Title screen_19
       rect:
         serializedVersion: 2
-        x: 112
-        y: 12
-        width: 31
-        height: 44
+        x: 100
+        y: 4
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,10 +637,10 @@ TextureImporter:
       name: Title screen_20
       rect:
         serializedVersion: 2
-        x: 116
-        y: 3
-        width: 9
-        height: 9
+        x: 110
+        y: 4
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -659,10 +659,10 @@ TextureImporter:
       name: Title screen_21
       rect:
         serializedVersion: 2
-        x: 124
-        y: 3
-        width: 6
-        height: 9
+        x: 117
+        y: 4
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -681,10 +681,10 @@ TextureImporter:
       name: Title screen_22
       rect:
         serializedVersion: 2
-        x: 129
-        y: 3
-        width: 6
-        height: 9
+        x: 125
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -703,10 +703,10 @@ TextureImporter:
       name: Title screen_23
       rect:
         serializedVersion: 2
-        x: 134
-        y: 3
-        width: 6
-        height: 9
+        x: 130
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -725,10 +725,10 @@ TextureImporter:
       name: Title screen_24
       rect:
         serializedVersion: 2
-        x: 139
-        y: 3
-        width: 7
-        height: 9
+        x: 135
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -747,10 +747,10 @@ TextureImporter:
       name: Title screen_25
       rect:
         serializedVersion: 2
-        x: 144
-        y: 12
-        width: 31
-        height: 44
+        x: 140
+        y: 4
+        width: 5
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -769,10 +769,10 @@ TextureImporter:
       name: Title screen_26
       rect:
         serializedVersion: 2
-        x: 145
-        y: 3
-        width: 6
-        height: 9
+        x: 146
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -791,10 +791,10 @@ TextureImporter:
       name: Title screen_27
       rect:
         serializedVersion: 2
-        x: 150
-        y: 3
-        width: 6
-        height: 9
+        x: 151
+        y: 4
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -813,7 +813,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ae4359efdc7dd964aa600f9bc7be26ca
     internalID: 0
     vertices: []
     indices: 
@@ -822,7 +822,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Title screen_0: -2646632210091966348
+      Title screen_1: 7684537235002591551
+      Title screen_10: -6199365893797237050
+      Title screen_11: 6167237650160582752
+      Title screen_12: 5263818123790704217
+      Title screen_13: 6673245581012242173
+      Title screen_14: 4689010205953165238
+      Title screen_15: 7948861569276602297
+      Title screen_16: 6673952249898230838
+      Title screen_17: -4655200071525455264
+      Title screen_18: -3519174908765285024
+      Title screen_19: 4416257828033434808
+      Title screen_2: -4880102284528158475
+      Title screen_20: 5393991135579441122
+      Title screen_21: 2370173711167481499
+      Title screen_22: -2917937675970417740
+      Title screen_23: 4548689797079322468
+      Title screen_24: 1287029954628495177
+      Title screen_25: 6673475197663875089
+      Title screen_26: 8929023033213742528
+      Title screen_27: -8020246888358351736
+      Title screen_3: 8477476404214639954
+      Title screen_4: 5885742286590926058
+      Title screen_5: -4051489298793785166
+      Title screen_6: 7159199218121594486
+      Title screen_7: -887377095911101225
+      Title screen_8: -7732300390704986842
+      Title screen_9: 2097090723468178265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
