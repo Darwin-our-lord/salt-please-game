@@ -312,7 +312,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: fa6d8a4f5a29149429d78766501d32f5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -698,7 +698,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &507522582
 RectTransform:
@@ -2001,6 +2001,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1210821802080972963, guid: ea3b0197e98149641a8ac929108ba834, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5570844814724975797, guid: ea3b0197e98149641a8ac929108ba834, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.55
@@ -2044,6 +2048,10 @@ PrefabInstance:
     - target: {fileID: 6603528796765591840, guid: ea3b0197e98149641a8ac929108ba834, type: 3}
       propertyPath: m_Name
       value: WaterGlass
+      objectReference: {fileID: 0}
+    - target: {fileID: 8717531371683562619, guid: ea3b0197e98149641a8ac929108ba834, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -35,6 +35,7 @@ public class Dissovler : MonoBehaviour
 
     public void SpawnParticles(Transform spawnPoint)
     {
+        KillParticles();
         ps.transform.position = spawnPoint.position;
         ps.Emit(10);
     }
