@@ -3725,6 +3725,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: be31eefd4f92c0246bdc9ae5f359fc87, type: 2}
   - {fileID: 11400000, guid: 485b58bbcf1753940887b664615f5be4, type: 2}
   - {fileID: 11400000, guid: a9a3bb7d656d1d44c86eff3fdde1a1e4, type: 2}
+  - {fileID: 11400000, guid: 3c2273de80b1c6e4c93abe590279d5c6, type: 2}
   guys:
   - {fileID: -663452582713865522, guid: 6b89e7bcba36f514a8161e38c6763f02, type: 3}
   - {fileID: 1384122132965402072, guid: 6b89e7bcba36f514a8161e38c6763f02, type: 3}
