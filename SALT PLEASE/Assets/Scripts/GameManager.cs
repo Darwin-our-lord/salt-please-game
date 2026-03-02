@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
             Debug.Log("you win");
 
         }
-        else if (currentSalt.isWrong && !isWrong)
+        else if (!currentSalt.isWrong && !isWrong)
         {
             Debug.Log("you win");
         }
