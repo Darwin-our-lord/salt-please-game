@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public SpriteRenderer guySprite;
 
     public GameObject saltSpawner;
+    public Paper paper;
 
     public Salt currentSalt;
 
@@ -34,6 +35,8 @@ public class GameManager : MonoBehaviour
         {
             Destroy(saltSpawner.transform.GetChild(i).gameObject);
         }
+
+        paper.SetNewText(currentSalt.name);
 
         dissovler.KillParticles();
         dissovler.salt = currentSalt;
