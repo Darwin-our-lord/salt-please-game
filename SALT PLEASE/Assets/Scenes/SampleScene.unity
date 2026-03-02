@@ -832,6 +832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6d630c20afe7a4cb86c744a7b8d3cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pinchSprite: {fileID: 21300000, guid: e40e6b146e5ff5443bb3f096e065549c, type: 3}
+  normalSprite: {fileID: 21300000, guid: 498335089b32d764a935bf80ade4ff51, type: 3}
 --- !u!212 &574596429
 SpriteRenderer:
   m_ObjectHideFlags: 0
