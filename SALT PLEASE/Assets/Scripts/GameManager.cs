@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("just references")]
     public List<Salt> salts = new List<Salt>();
     public List<Sprite> guys = new List<Sprite>();
     public Dissovler dissovler;
@@ -16,7 +17,17 @@ public class GameManager : MonoBehaviour
 
     public Salt currentSalt;
 
+    public GameObject lifeOBJ;
+
+    public GameObject GameLostUI;
+
     private GameObject saltMicroThing;
+
+    [Header("functional stuff (from here)")]
+    [SerializeField] private int livesLost = 0;
+    [SerializeField] private int livesMax = 3;
+
+
     void Start()
     {
         NewGuy();
@@ -46,13 +57,35 @@ public class GameManager : MonoBehaviour
     {
         if (currentSalt.isWrong && isWrong || !currentSalt.isWrong && !isWrong)
         {
-            Debug.Log("you win");
-
+            Right();
         }
         else
         {
-            Debug.Log("you lose");
+            Wrong();
         }
         NewGuy();
+    }
+    void Wrong()
+    {
+        Debug.Log("you lose a life");
+        livesLost++;
+        lifeOBJ.transform.GetChild(livesLost-1).gameObject.GetComponent<Image>().color = Color.red;
+        if (livesLost >= livesMax)
+        {
+            Debug.Log("THE GAME IS LOST   -   X");
+            GameLostUI.SetActive(true);
+            Time.timeScale = 0;
+        }
+
+
+
+    }
+    void Right()
+    {
+        Debug.Log("you win");
+
+
+
+
     }
 }
