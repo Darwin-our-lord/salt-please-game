@@ -41,14 +41,10 @@ public class GameManager : MonoBehaviour
 
     public void ConfirmRightOrWrong(bool isWrong)
     {
-        if (currentSalt.isWrong && isWrong)
+        if (currentSalt.isWrong && isWrong || !currentSalt.isWrong && !isWrong)
         {
             Debug.Log("you win");
 
-        }
-        else if (!currentSalt.isWrong && !isWrong)
-        {
-            Debug.Log("you win");
         }
         else
         {
