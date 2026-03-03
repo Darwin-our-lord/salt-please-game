@@ -43,6 +43,8 @@ public class GameManager : MonoBehaviour
         handIMG.GetComponent<SpriteRenderer>().sortingOrder = 0;
         shutters.GetComponent<Animator>().SetTrigger("Close");
 
+        yield return new WaitForSecondsRealtime(0.5f);
+
         currentSalt = salts[Random.Range(0,salts.Count)];
 
         guySprite.sprite = guys[Random.Range(0, guys.Count)];
