@@ -70,11 +70,13 @@ public class GameManager : MonoBehaviour
         Debug.Log("you lose a life");
         livesLost++;
         lifeOBJ.transform.GetChild(livesLost-1).gameObject.GetComponent<Image>().color = Color.red;
+
         if (livesLost >= livesMax)
         {
             Debug.Log("THE GAME IS LOST   -   X");
             GameLostUI.SetActive(true);
             Time.timeScale = 0;
+            Cursor.visible = true;
         }
 
 
