@@ -2,6 +2,7 @@ using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -21,20 +22,27 @@ public class GameManager : MonoBehaviour
 
     public GameObject GameLostUI;
 
+    public GameObject shutters;
+    public GameObject handIMG;
+
     private GameObject saltMicroThing;
 
     [Header("functional stuff (from here)")]
     [SerializeField] private int livesLost = 0;
     [SerializeField] private int livesMax = 3;
 
+    bool waitingForNewGuy = true;
 
     void Start()
     {
-        NewGuy();
+        StartCoroutine(NewGuy());
     }
 
-    void NewGuy()
+    IEnumerator NewGuy()
     {
+        handIMG.GetComponent<SpriteRenderer>().sortingOrder = 0;
+        shutters.GetComponent<Animator>().SetTrigger("Close");
+
         currentSalt = salts[Random.Range(0,salts.Count)];
 
         guySprite.sprite = guys[Random.Range(0, guys.Count)];
@@ -51,10 +59,19 @@ public class GameManager : MonoBehaviour
 
         dissovler.KillParticles();
         dissovler.salt = currentSalt;
+
+        yield return new WaitForSecondsRealtime(3);
+
+        shutters.GetComponent<Animator>().SetTrigger("Open");
+
+        yield return new WaitForSecondsRealtime(1);
+        handIMG.GetComponent<SpriteRenderer>().sortingOrder = 3;
+        waitingForNewGuy =false;
     }
 
     public void ConfirmRightOrWrong(bool isWrong)
     {
+        if (waitingForNewGuy) return;
         if (currentSalt.isWrong && isWrong || !currentSalt.isWrong && !isWrong)
         {
             Right();
@@ -63,7 +80,8 @@ public class GameManager : MonoBehaviour
         {
             Wrong();
         }
-        NewGuy();
+        waitingForNewGuy = true;
+        StartCoroutine(NewGuy());
     }
     void Wrong()
     {

@@ -2030,7 +2030,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: -663452582713865522, guid: 6b89e7bcba36f514a8161e38c6763f02, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3859,6 +3859,8 @@ MonoBehaviour:
   currentSalt: {fileID: 0}
   lifeOBJ: {fileID: 995748386}
   GameLostUI: {fileID: 884556032}
+  shutters: {fileID: 1267329699}
+  handIMG: {fileID: 863797803}
   livesLost: 0
   livesMax: 3
 --- !u!4 &2026840269
