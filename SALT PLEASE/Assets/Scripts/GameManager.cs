@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
             Destroy(saltSpawner.transform.GetChild(i).gameObject);
         }
 
-        paper.SetNewText(currentSalt.name);
+        paper.SetNewText(currentSalt.saltName);
 
         dissovler.KillParticles();
         dissovler.salt = currentSalt;
